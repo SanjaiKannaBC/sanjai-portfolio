@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanjai Kanna B C | Data Science & Analytics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index-C6UpcRUw.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cw7AS1zU.css">
+  </head>
+  <body>
+    <!-- 3D WebGL Canvas Background -->
+    <canvas id="webgl-canvas"></canvas>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">SK.</div>
+      <div class="nav-links">
+        <a href="#about" class="nav-item">About</a>
+        <a href="#experience" class="nav-item">Experience</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#certifications" class="nav-item">Certifications</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Fake Scroll Container to drive GSAP -->
+    <div class="scroll-container"></div>
+
+    <!-- Fixed UI Wrapper (Overlays on top of 3D Canvas) -->
+    <div class="fixed-ui-wrapper">
+      <main>
+        <!-- Hero Section -->
+      <section id="hero" class="section hero-section">
+        <div class="hero-content">
+          <p class="hero-greeting">Hi, I'm</p>
+          <h1 class="hero-name">Sanjai Kanna<span class="highlight">.</span></h1>
+          <h2 class="hero-title">Data Science & Analytics Professional</h2>
+          <p class="hero-desc">Turning raw data into actionable insights. Expert in workflow automation, predictive modeling, and business intelligence.</p>
+        </div>
+
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section creative-about-section">
+        <h2 class="creative-section-title">Who I Am<span class="highlight">.</span></h2>
+        <div class="creative-about-layout">
+          <div class="creative-about-text">
+            <p>An analytical graduate with hands-on experience in <span class="glow-text">SQL, Python, PostgreSQL, R</span>, data analytics, feature engineering, and workflow automation.</p>
+            <p>I specialize in preparing large-scale datasets, automating reporting workflows, and supporting <span class="glow-text">machine learning</span> and business analytics initiatives to drive strategic decisions.</p>
+          </div>
+          <div class="creative-timeline">
+            <div class="creative-timeline-node">
+              <div class="node-dot"></div>
+              <div class="node-content">
+                <h3>IIT Madras</h3>
+                <p>BS in Programming & Data Science</p>
+                <span class="neon-badge">Ongoing</span>
+              </div>
+            </div>
+            <div class="creative-timeline-node">
+              <div class="node-dot"></div>
+              <div class="node-content">
+                <h3>Loyola College, Chennai</h3>
+                <p>B.Com (Computer Applications)</p>
+                <span class="neon-badge">Graduated 2026 | CGPA: 8.91</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section creative-skills-section">
+        <h2 class="creative-section-title">Technical Arsenal<span class="highlight">.</span></h2>
+        <div class="creative-skills-cloud">
+          
+          <div class="creative-skill-cluster">
+            <h3 class="cluster-title">Languages & DBs</h3>
+            <div class="cluster-orbit">
+              <div class="floating-tag bob-1">Python</div>
+              <div class="floating-tag bob-2">SQL (PostgreSQL)</div>
+              <div class="floating-tag bob-3">R</div>
+            </div>
+          </div>
+          
+          <div class="creative-skill-cluster">
+            <h3 class="cluster-title">Data Science</h3>
+            <div class="cluster-orbit">
+              <div class="floating-tag bob-2">EDA</div>
+              <div class="floating-tag bob-3">Feature Engineering</div>
+              <div class="floating-tag bob-1">Regression & Classification</div>
+            </div>
+          </div>
+
+          <div class="creative-skill-cluster">
+            <h3 class="cluster-title">Visualization & BI</h3>
+            <div class="cluster-orbit">
+              <div class="floating-tag bob-3">Power BI</div>
+              <div class="floating-tag bob-1">Tableau</div>
+              <div class="floating-tag bob-2">DAX</div>
+              <div class="floating-tag bob-1">Excel</div>
+            </div>
+          </div>
+
+          <div class="creative-skill-cluster">
+            <h3 class="cluster-title">Tools & Cloud</h3>
+            <div class="cluster-orbit">
+              <div class="floating-tag bob-1">Git & GitHub</div>
+              <div class="floating-tag bob-2">Azure</div>
+              <div class="floating-tag bob-3">Google Cloud</div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="section creative-experience-section">
+        <h2 class="creative-section-title">Career Track<span class="highlight">.</span></h2>
+        
+        <div class="hud-experience-container">
+          <div class="hud-line"></div>
+          
+          <div class="hud-item">
+            <div class="hud-marker"></div>
+            <div class="hud-content">
+              <div class="hud-header">
+                <h3 class="hud-title">Data Science Intern</h3>
+                <span class="hud-date">JUN 2026 - PRESENT</span>
+              </div>
+              <h4 class="hud-company">CREDITMANTRI PVT. LTD.</h4>
+              <div class="hud-details">
+                <div class="hud-bullet">
+                  <span class="bullet-icon">▸</span>
+                  <p>Queried and transformed large-scale datasets using PostgreSQL. Performed EDA and data preprocessing for propensity and classification modeling.</p>
+                </div>
+                <div class="hud-bullet">
+                  <span class="bullet-icon">▸</span>
+                  <p>Automated MIS reports using SQL, Python, and R.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hud-item">
+            <div class="hud-marker"></div>
+            <div class="hud-content">
+              <div class="hud-header">
+                <h3 class="hud-title">Data Eng & Automation Intern</h3>
+                <span class="hud-date">DEC 2025</span>
+              </div>
+              <h4 class="hud-company">CHENNAI METRO RAIL LTD.</h4>
+              <div class="hud-details">
+                <div class="hud-bullet">
+                  <span class="bullet-icon">▸</span>
+                  <p>Processed financial transaction datasets up to 20 lakh records. Developed Python tools for reconciliation, reducing time from 1 day to 5 mins.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hud-item">
+            <div class="hud-marker"></div>
+            <div class="hud-content">
+              <div class="hud-header">
+                <h3 class="hud-title">Fundamental Analysis Intern</h3>
+                <span class="hud-date">MAY 2025</span>
+              </div>
+              <h4 class="hud-company">ABSOLUTE BROKING PVT. LTD.</h4>
+              <div class="hud-details">
+                <div class="hud-bullet">
+                  <span class="bullet-icon">▸</span>
+                  <p>Analyzed financial statement data of listed IT companies to evaluate profitability and leverage using financial ratios.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hud-item">
+            <div class="hud-marker"></div>
+            <div class="hud-content">
+              <div class="hud-header">
+                <h3 class="hud-title">Data Visualization Intern</h3>
+                <span class="hud-date">MAY 2024</span>
+              </div>
+              <h4 class="hud-company">ANTONTECH PVT. LTD.</h4>
+              <div class="hud-details">
+                <div class="hud-bullet">
+                  <span class="bullet-icon">▸</span>
+                  <p>Developed Power BI dashboards and transformed business datasets using Power Query and DAX.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section creative-projects-section">
+        <h2 class="creative-section-title">Case Studies<span class="highlight">.</span></h2>
+        
+        <div class="holo-projects-grid">
+          
+          <div class="holo-project">
+            <div class="holo-border-top"></div>
+            <div class="holo-content">
+              <h3 class="holo-title">Predictive Analysis on Mobile Usage</h3>
+              <div class="holo-reveal">
+                <p>Analyzed mobile usage and sleep duration data using Python (Pandas, NumPy) and linear regression (statsmodels). Identified a negative relationship between screen time and sleep duration.</p>
+                <div class="holo-tech">
+                  <span>PYTHON</span> <span>STATSMODELS</span> <span>MATPLOTLIB</span>
+                </div>
+              </div>
+            </div>
+            <div class="holo-border-bottom"></div>
+          </div>
+
+          <div class="holo-project">
+            <div class="holo-border-top"></div>
+            <div class="holo-content">
+              <h3 class="holo-title">Python REST API & CRUD</h3>
+              <div class="holo-reveal">
+                <p>Built a robust Python-based REST API implementing full CRUD operations on structured data with strict data validation protocols and Postman testing.</p>
+                <div class="holo-tech">
+                  <span>PYTHON</span> <span>API DEV</span> <span>BACKEND</span>
+                </div>
+              </div>
+            </div>
+            <div class="holo-border-bottom"></div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Certifications Section -->
+      <section id="certifications" class="section creative-cert-section">
+        <h2 class="creative-section-title">Credentials<span class="highlight">.</span></h2>
+        
+        <div class="constellation-grid">
+          
+          <a href="https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_6968df80b868aacca8599a58_1768491569552_completion_certificate.pdf" target="_blank" class="constellation-node node-a">
+            <div class="node-glow"></div>
+            <span class="node-title">Data Analytics Job Sim</span>
+            <span class="node-org">Deloitte Australia</span>
+          </a>
+          
+          <a href="https://www.datacamp.com/certificate/PDA0010153236766" target="_blank" class="constellation-node node-b">
+            <div class="node-glow"></div>
+            <span class="node-title">Python Data Associate</span>
+            <span class="node-org">DataCamp</span>
+          </a>
+          
+          <a href="https://www.datacamp.com/completed/statement-of-accomplishment/course/a3ddca68cc1c838e7099db88507b23c2fb64a9d8" target="_blank" class="constellation-node node-c">
+            <div class="node-glow"></div>
+            <span class="node-title">Intro to SQL</span>
+            <span class="node-org">DataCamp</span>
+          </a>
+          
+          <a href="https://www.mygreatlearning.com/certificate/JXWJHQLG" target="_blank" class="constellation-node node-d">
+            <div class="node-glow"></div>
+            <span class="node-title">Tableau for Data Science</span>
+            <span class="node-org">Great Learning</span>
+          </a>
+          
+          <a href="https://www.datacamp.com/completed/statement-of-accomplishment/course/081b7a9350f18cebfe2ec075b7d52602a2564801" target="_blank" class="constellation-node node-e">
+            <div class="node-glow"></div>
+            <span class="node-title">Power BI Visualization</span>
+            <span class="node-org">DataCamp</span>
+          </a>
+          
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section boxless-section contact-section">
+        <div class="contact-content-creative">
+          <h2 class="creative-contact-title">Let's Create<br><span class="highlight">Something Amazing</span></h2>
+          <p class="creative-contact-subtitle">Currently available for freelance opportunities and exciting projects.</p>
+          
+          <div class="creative-contact-links">
+            <a href="mailto:sanjaikannabc26@gmail.com" class="creative-link">
+              <span class="creative-link-label">DROP A MESSAGE</span>
+              <span class="creative-link-text">sanjaikannabc26@gmail.com</span>
+              <div class="hover-line"></div>
+            </a>
+            
+            <a href="https://linkedin.com/in/sanjaikannabc" target="_blank" rel="noopener noreferrer" class="creative-link">
+              <span class="creative-link-label">CONNECT WITH ME</span>
+              <span class="creative-link-text">LinkedIn Profile</span>
+              <div class="hover-line"></div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Sanjai Kanna B C. Built for impact.</p>
+    </footer>
+    </div> <!-- End of fixed-ui-wrapper -->
+
+  </body>
+</html>
